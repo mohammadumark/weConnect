@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
             FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
             String userEmail = user.getEmail();
 
-            TextView textView = findViewById(R.id.txt1);
+            TextView textView = findViewById(R.id.Txt);
             textView.setText(userEmail);
 
         }
